@@ -1,85 +1,110 @@
 /* COMMON */
 .body--container {
-  font-family: "YoonGothicPro720", "YoonGothicPro750";
-  font-size: 15px;
-  font-weight: 400;
-  color: #666;
+    font-family: "YoonGothicPro720", "YoonGothicPro750";
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* FLOAT CLEARFIX */
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .float--left {
-  float: left;
+    float: left;
 }
 
 .float--right {
-  float: right;
+    float: right;
 }
 
 /* SECTION & INNER */
 .section {
-  position: relative;
+    position: relative;
 }
 
 .section .inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
 }
 
 /* HEADER */
 header {
-  background: #fff;
-  height: 81px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    height: 81px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header .inner {
-  height: 80px;
-  text-align: right;
+    height: 80px;
+    text-align: right;
 }
 
 header .menu-group {
-  margin: 30px 0;
+    margin: 30px 0;
 }
 
-header .logo {
-}
+header .logo {}
 
 header .logo a {
-  background: url("../img/logo_black.svg");
-  display: block;
-  width: 116px;
-  height: 80px;
-  font-size: 0;
-  text-indent: -9999px;
+    background: url("../img/logo_black.svg");
+    display: block;
+    width: 116px;
+    height: 80px;
+    font-size: 0;
+    text-indent: -9999px;
 }
 
 header .main-menu {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .main-menu li a {
-  display: block;
-  font-size: 15px;
-  padding: 0 10px;
-  color: #000;
-  line-height: 80px;
+    display: block;
+    font-size: 15px;
+    padding: 0 10px;
+    color: #000;
+    line-height: 80px;
 }
 
 .main-menu li a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* FOOTER */
+.policy {
+    display: flex;
+    font-size: 12px;
+}
+
+.policy li {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    border-right: #D8D8D8;
+}
+
+.policy li a {
+    color: #666;
+}
+
+.contact {
+    display: flex;
+    color: #666;
+    font-size: 12px;
+}
+
+.contact li {
+    display: block;
+
+}
