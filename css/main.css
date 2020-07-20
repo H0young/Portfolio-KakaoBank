@@ -1,110 +1,176 @@
 /* COMMON */
 .body--container {
-    font-family: "YoonGothicPro720", "YoonGothicPro750";
-    font-size: 15px;
-    font-weight: 400;
-    color: #666;
+  font-family: "YoonGothicPro720", "YoonGothicPro750";
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* FLOAT CLEARFIX */
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .float--left {
-    float: left;
+  float: left;
 }
 
 .float--right {
-    float: right;
+  float: right;
 }
 
 /* SECTION & INNER */
 .section {
-    position: relative;
+  position: relative;
 }
 
 .section .inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* BUTTON */
+
+.submit-btn {
+}
+
+.info-btn {
+  display: block;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 56px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 /* HEADER */
 header {
-    background: #fff;
-    height: 81px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  height: 81px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 header .inner {
-    height: 80px;
-    text-align: right;
+  height: 80px;
+  text-align: right;
 }
 
 header .menu-group {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
-header .logo {}
+header .logo {
+}
 
 header .logo a {
-    background: url("../img/logo_black.svg");
-    display: block;
-    width: 116px;
-    height: 80px;
-    font-size: 0;
-    text-indent: -9999px;
+  background: url("../img/logo_black.svg");
+  display: block;
+  width: 116px;
+  height: 80px;
+  font-size: 0;
+  text-indent: -9999px;
 }
 
 header .main-menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .main-menu li a {
-    display: block;
-    font-size: 15px;
-    padding: 0 10px;
-    color: #000;
-    line-height: 80px;
+  display: block;
+  font-size: 15px;
+  padding: 0 10px;
+  color: #000;
+  line-height: 80px;
 }
 
 .main-menu li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+/* VISUAL */
+.section--visual {
+}
+.intro {
+}
+.intro h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+  color: #111;
+}
+.intro h3 {
+  display: block;
+  margin: 45px 0 17px;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+.intro p {
+  margin-top: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #666;
+}
+.intro .intro9-content {
+  display: flex;
+}
+.intro .intro9 .intro-subtitle {
+  display: block;
+}
+.intro .intro9 p {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #666;
+  font-weight: 200;
+}
+.intro a {
+  color: #333;
 }
 
 /* FOOTER */
 .policy {
-    display: flex;
-    font-size: 12px;
+  display: flex;
+  font-size: 12px;
 }
 
 .policy li {
-    display: block;
-    color: #666;
-    font-size: 12px;
-    border-right: #D8D8D8;
+  display: block;
+  color: #666;
+  font-size: 12px;
+  border-right: #d8d8d8;
 }
 
 .policy li a {
-    color: #666;
+  color: #666;
 }
 
 .contact {
-    display: flex;
-    color: #666;
-    font-size: 12px;
+  display: flex;
+  color: #666;
+  font-size: 12px;
 }
 
 .contact li {
-    display: block;
+  display: block;
+}
 
+.access {
+}
+
+.access li {
 }
