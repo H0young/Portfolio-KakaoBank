@@ -471,8 +471,8 @@ header .main-menu {
 
 .intro .intro7-btn-box {
     display: flex;
-    position: absolute;
-    left: 30%;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro .intro7-btn a {
@@ -508,9 +508,9 @@ header .main-menu {
 
 .intro .intro8-img-box {
     display: flex;
-    position: absolute;
     margin-top: 80px;
-    left: 10%;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro .intro8-img1,
@@ -533,11 +533,24 @@ header .main-menu {
 }
 
 .intro .intro9-img {
+    position: absolute;
     width: 1020px;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 300px;
 }
 
 .intro .intro9-content {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .intro9 .content-bar {
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+    margin: 50px auto 140px;
 }
 
 .intro .intro9 .intro-subtitle {}
