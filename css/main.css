@@ -4,6 +4,10 @@ body {
     font-family: "Yoon 윤고딕", "sans-serif";
 }
 
+::selection {
+    background-color: #fede22;
+}
+
 .body--container {
     font-size: 15px;
     font-weight: 400;
@@ -42,6 +46,10 @@ a:hover {
 }
 
 /* BUTTON */
+
+.info-btn {
+    display: inline-block;
+}
 
 .info-btn a {
     background-color: #f6f6f6;
@@ -481,14 +489,28 @@ header .main-menu {
 
 /* INTRO 8 */
 
-.intro .intro8 {}
+.intro .intro8 {
+    background-color: #fff;
+}
 
-.intro .intro8-wrap {}
+.intro .intro8-wrap {
+    height: 1062px;
+}
 
-.intro .intro8-content {}
+.intro .intro8-content {
+    text-align: center;
+    padding-top: 160px;
+}
+
+.intro .intro8 .intro8-btn {
+    margin-left: 50%;
+}
 
 .intro .intro8-img-box {
     display: flex;
+    position: absolute;
+    margin-top: 80px;
+    left: 10%;
 }
 
 .intro .intro8-img1,
@@ -496,18 +518,29 @@ header .main-menu {
 .intro8-img3,
 .intro8-img4,
 .intro8-img5 {
-    width: 280px;
+    width: 240px;
+    padding-right: 10px;
 }
 
 /* INTRO 9 */
+
+.intro9 {
+    background-color: #f9f9f9;
+}
+
+.intro .intro9-wrap {
+    height: 1175px;
+}
+
+.intro .intro9-img {
+    width: 1020px;
+}
 
 .intro .intro9-content {
     display: flex;
 }
 
-.intro .intro9 .intro-subtitle {
-    display: block;
-}
+.intro .intro9 .intro-subtitle {}
 
 .intro .intro9 p {
     display: block;
