@@ -127,7 +127,9 @@ header .main-menu {
 }
 
 /* VISUAL COMMON*/
-.section-visual {}
+.section-visual {
+    min-width: 1200px;
+}
 
 .intro {}
 
@@ -258,15 +260,17 @@ header .main-menu {
 .intro .intro2-img {
     width: 473px;
     height: 678px;
-    position: relative;
-    left: 330px;
-    top: 20px;
+    position: absolute;
+    transform: translate(-10%, -50%);
+    top: 50%;
+    right: 50%;
 }
 
 .intro .intro2-content {
-    position: relative;
-    top: -480px;
-    left: 930px;
+    position: absolute;
+    transform: translate(30%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 /* INTRO 3 */
@@ -285,21 +289,24 @@ header .main-menu {
     position: absolute;
     width: 409px;
     height: 722px;
-    top: 20px;
-    left: 950px;
+    transform: translate(30%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .intro .intro3-img2 {
     position: absolute;
     width: 440px;
-    left: 350px;
-    top: 500px;
+    transform: translate(-10%, 110%);
+    top: 50%;
+    right: 50%;
 }
 
 .intro .intro3-content {
     position: absolute;
-    top: 180px;
-    left: 350px;
+    transform: translate(10%, -70%);
+    top: 50%;
+    right: 50%;
 }
 
 .intro3-btn-box {
@@ -334,14 +341,16 @@ header .main-menu {
     position: absolute;
     width: 459px;
     height: 607px;
-    top: 80px;
-    left: 350px;
+    transform: translate(0%, -50%);
+    top: 50%;
+    right: 50%;
 }
 
 .intro .intro4-content {
     position: absolute;
-    right: 400px;
-    top: 200px;
+    transform: translate(30%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 /* INTRO 5 */
@@ -360,16 +369,17 @@ header .main-menu {
     position: absolute;
     width: 492px;
     height: 408px;
-    right: 300px;
-    top: 130px;
+    transform: translate(10%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .intro .intro5-content {
     position: absolute;
-    left: 430px;
-    top: 180px;
+    transform: translate(-30%, -50%);
+    top: 50%;
+    right: 50%;
 }
-
 
 /* INTRO 6 */
 
@@ -394,14 +404,16 @@ header .main-menu {
     position: absolute;
     width: 408px;
     height: 715px;
-    left: 390px;
-    top: 20px;
+    transform: translate(-5%, -50%);
+    top: 50%;
+    right: 50%;
 }
 
 .intro .intro6-content {
     position: absolute;
-    top: 200px;
-    right: 430px;
+    transform: translate(30%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 /* INTRO 7 */
@@ -460,11 +472,8 @@ header .main-menu {
     font-size: 16px;
     line-height: 51px;
     color: #fff;
-    text-align: cente
+    text-align: cente;
 }
-
-
-
 
 /* INTRO 8 */
 
