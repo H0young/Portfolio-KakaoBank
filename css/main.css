@@ -667,12 +667,17 @@ footer .section {
     height: 32px;
 }
 
+.access-sns {
+    width: 32px;
+    height: 20px;
+}
+
 .access {
     display: flex;
     font-size: 0;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.access li {}
 
 .access .facebook,
 .blog,
