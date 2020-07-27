@@ -1,0 +1,257 @@
+/* COMMON */
+html,
+body {
+    font-family: "Yoon 윤고딕", "sans-serif";
+}
+
+::selection {
+    background-color: #fede22;
+}
+
+.body--container {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FLOAT */
+
+.float--left {
+    float: left;
+}
+
+.float--right {
+    float: right;
+}
+
+/* SECTION & INNER */
+.section {
+    position: relative;
+}
+
+.section .inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background: #fff;
+    height: 81px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .header-wrap {
+    height: 80px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header .menu-group {}
+
+header .logo {
+    line-height: 80px;
+}
+
+header .logo a {
+    background: url("../img/logo_black.svg") no-repeat;
+    display: inline-block;
+    width: 116px;
+    height: 20px;
+    font-size: 0;
+    text-indent: -9999px;
+    vertical-align: middle;
+}
+
+header .main-menu {
+    display: flex;
+    align-items: center;
+    line-height: 44px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.main-menu li {
+    display: block;
+    padding: 0 10px;
+    line-height: 80px;
+    min-width: 80px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-menu li a {
+    color: #000;
+    vertical-align: middle;
+}
+
+.main-menu li.submit-btn {
+    display: inline-block;
+    line-height: 44px;
+    height: 46px;
+    font-size: 14px;
+    border-radius: 22px;
+    padding: 0 20px;
+    background: #fede22;
+    border: 1px solid #fede22;
+}
+
+.main-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    padding-bottom: 20px;
+}
+
+footer .section {
+    background-color: #eee;
+    width: 1080px;
+}
+
+.policy {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.policy h4 {
+    display: block;
+    padding: 37px 0 12px;
+    font-size: 12px;
+    border-right: #d8d8d8;
+}
+
+.policy .policy-bold {
+    color: #000;
+    font-weight: bold;
+}
+
+.policy h4 a {
+    color: #666;
+}
+
+.policy .text-bar {
+    width: 1px;
+    height: 10px;
+    margin: 20px 15px 0;
+    background-color: #d8d8d8;
+}
+
+.contact {
+    display: flex;
+    margin-top: 12px;
+    color: #666;
+    font-size: 12px;
+}
+
+.contact li {
+    display: block;
+}
+
+.contact .contact-call {
+    color: #000;
+}
+
+.contact .contact-call2 {
+    padding: 0 19px 0 6px;
+    font-weight: 200;
+    color: #888;
+    font-size: 12px;
+}
+
+.contact .copyright {
+    font-size: smaller;
+    color: #888;
+}
+
+.accessibility {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.accessibility h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.accessibility-img {
+    margin-top: 10px;
+    width: 48px;
+    height: 32px;
+}
+
+.access-sns {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.access {
+    display: flex;
+    font-size: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.access .facebook,
+.blog,
+.post,
+.youtube {
+    display: block;
+    background-image: url(../img/img_kabang_sprite.png);
+    background-size: 420px 390px;
+    height: 20px;
+    /* width: 30px; */
+    margin: 0 auto;
+}
+
+.access .facebook {
+    width: 10px;
+    background-position: -120px -360px;
+}
+
+.access .blog {
+    width: 12px;
+    background-position: -140px -360px;
+}
+
+.access .post {
+    width: 14px;
+    background-position: -389px -360px;
+}
+
+.access .youtube {
+    width: 23px;
+    margin-top: 2px;
+    background-position: -160px -360px;
+}
