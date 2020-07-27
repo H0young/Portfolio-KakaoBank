@@ -7,14 +7,42 @@
     <title>img Carousel</title>
 
     <style>
+        /* INTRO 8 */
+
         .img-slidebox {}
 
-        .intro8-img {}
+        .intro .intro8-img-box {
+            display: flex;
+            margin-top: 80px;
+            align-items: center;
+            justify-content: center;
+            width: 660px;
+            height: 440px;
+            top: 469px;
+        }
+
+        .slide-btn {
+            /* background-image: url(../img/); */
+        }
+
+        .slide-btn .previous {}
+
+        .slide-btn .next {}
+
+        .intro .intro8-img1,
+        .intro8-img2,
+        .intro8-img3,
+        .intro8-img4,
+        .intro8-img5 {
+            width: 240px;
+            padding-right: 10px;
+        }
     </style>
 </head>
 
 <body>
     <div class="img-slidebox">
+        <div class="slide-btn previous"><button>previouse</button></div>
         <div class="intro8-img-box">
             <img class="intro8-img" src="../img/card-1.png" alt="카카오뱅크 프렌즈 체크카드1" />
             <img class="intro8-img" src="../img/card-2.png" alt="카카오뱅크 프렌즈 체크카드2" />
@@ -22,6 +50,7 @@
             <img class="intro8-img" src="../img/card-4.png" alt="카카오뱅크 프렌즈 체크카드4" />
             <img class="intro8-img" src="../img/card-5.png" alt="카카오뱅크 프렌즈 체크카드5" />
         </div>
+        <div class="slide-btn next"><button>next</button></div>
     </div>
 </body>
 <script src="./carouselFunc.js"></script>

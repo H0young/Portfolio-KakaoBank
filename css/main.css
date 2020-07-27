@@ -496,12 +496,50 @@ header .main-menu {
     margin-left: 50%;
 }
 
+.img-slidebox {
+    width: 1200px;
+}
+
+.slide-btn {
+    cursor: pointer;
+    text-align: center;
+}
+
+.slide-btn .btn-previous,
+.btn-next {
+    width: 38px;
+    height: 72px;
+    font-size: 0;
+}
+
+.slide-btn .btn-previous {
+    position: absolute;
+    background-image: url(../img/img-left.png);
+    top: 150px;
+    left: 200px;
+}
+
+.slide-btn .btn-next {
+    position: absolute;
+    background-image: url(../img/img-right.png);
+    top: 150px;
+    right: 200px;
+}
+
+.btn-previous:hover,
+.btn-next:hover {
+    /* 호버 색상 확인 */
+}
+
 .intro .intro8-img-box {
     display: flex;
     margin-top: 80px;
     align-items: center;
     justify-content: center;
+
 }
+
+.slide-img {}
 
 .intro .intro8-img1,
 .intro8-img2,
