@@ -585,6 +585,10 @@ header .main-menu {
 
 /* FOOTER */
 
+footer {
+    padding-bottom: 20px;
+}
+
 footer .section {
     background-color: #eee;
     width: 1080px;
@@ -639,6 +643,7 @@ footer .section {
     padding: 0 19px 0 6px;
     font-weight: 200;
     color: #888;
+    font-size: 12px;
 }
 
 .contact .copyright {
@@ -668,8 +673,11 @@ footer .section {
 }
 
 .access-sns {
-    width: 32px;
-    height: 20px;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 
 .access {
@@ -687,6 +695,7 @@ footer .section {
     background-image: url(../img/img_kabang_sprite.png);
     background-size: 420px 390px;
     height: 20px;
+    /* width: 30px; */
     margin: 0 auto;
 }
 
