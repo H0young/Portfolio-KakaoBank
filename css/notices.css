@@ -21,12 +21,17 @@ header .main-menu li a {
 .notice-inner {
     width: 1080px;
     margin: 0 auto;
+    padding-top: 55px;
 }
 
 /* NOTICE TABLE */
 
+.notice-table {
+    padding: 0 20px 240px;
+}
+
 .notice-title {
-    padding: 132px 0 33px;
+    padding: 132px 0px 33px;
     font-size: 27px;
     font-style: normal;
     font-weight: normal;
@@ -94,4 +99,36 @@ header .main-menu li a {
 
 .notice-table .table-content a:hover {
     text-decoration: underline;
+}
+
+.table-paging {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.table-paging .paging-inner a {
+    padding: 1px 15px;
+    font-size: 15px;
+    color: #7d7d7d;
+}
+
+.table-paging .paging-inner a:hover {
+    color: #000;
+}
+
+.table-paging .paging-inner .next-btn {
+    margin-left: 16px;
+    width: 30px;
+    height: 22px;
+    margin-top: 2px;
+}
+
+
+.next-btn .page-next-btn {
+    background: url(../img/img_kabang_sprite.png);
+    background-size: 420px 390px;
+    background-position: -130px -30px;
+    width: 7px;
+    height: 12px;
+    margin: 4px auto 0;
 }
