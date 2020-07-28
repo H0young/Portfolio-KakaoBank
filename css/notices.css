@@ -20,6 +20,7 @@ header .main-menu li a {
 
 .notice-inner {
     width: 1080px;
+    margin: 0 auto;
 }
 
 /* NOTICE TABLE */
@@ -35,4 +36,62 @@ header .main-menu li a {
 .title-bar {
     border-bottom: 1px solid #d0d0d0;
     margin-bottom: 60px;
+}
+
+.notice-table table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.notice-table tr {
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.notice-table th {
+    height: 40px;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    color: #666;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.notice-table td {
+    padding: 15px 0 16px;
+    border-top: 1px solid #e6e6e6;
+    font-weight: 200;
+    color: #888;
+    line-height: 1.5;
+}
+
+.notice-table .table-num {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.notice-table .table-content {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.notice-table .table-date {
+    font-size: 12px;
+}
+
+.notice-table .table-content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.notice-table .table-content a:hover {
+    text-decoration: underline;
 }
