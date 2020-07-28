@@ -42,3 +42,57 @@ header .main-menu li a {
     border-bottom: 1px solid #d0d0d0;
     margin-bottom: 60px;
 }
+
+.notice-board {
+    background-color: #f4f4f4;
+    width: 100%;
+    color: #000;
+}
+
+.board-title {
+    position: relative;
+    padding: 25px 130px 26px 24px;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 15px;
+}
+
+.board-date {
+    position: absolute;
+    top: 26px;
+    right: 23px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #888;
+}
+
+.board-content {
+    padding: 40px 34px;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.board-btn {
+    position: relative;
+    height: 60px;
+    background-color: #fff;
+}
+
+.list-btn {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 98px;
+    height: 38px;
+    border: 1px solid #c8c8c8;
+    background-color: #fafafa;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+    color: #000;
+}
+
+.list-btn a {
+    text-decoration: none;
+}
