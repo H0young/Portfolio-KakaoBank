@@ -1,0 +1,44 @@
+/* HEADER */
+
+header {
+    background-color: #313955;
+}
+
+header .logo a {
+    background: url("../img/logo_white.svg") no-repeat;
+}
+
+header .main-menu li a {
+    color: #fff;
+}
+
+.main-menu .submit-btn a {
+    color: #000;
+}
+
+/* COMMON */
+
+.notice-inner {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 55px 20px 120px;
+}
+
+/* NOTICE TABLE */
+
+.notice-table {
+    padding: 0 20px 120px;
+}
+
+.notice-title {
+    padding: 132px 0px 33px;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.title-bar {
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 60px;
+}
