@@ -23,6 +23,12 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
 /* FLOAT */
 
 .float--left {
@@ -123,6 +129,7 @@ header .main-menu {
 
 footer {
     padding-bottom: 20px;
+    background-color: #f0f0f0;
 }
 
 footer .section {

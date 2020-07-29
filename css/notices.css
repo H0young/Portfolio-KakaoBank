@@ -120,20 +120,21 @@ header .main-menu li a {
     color: #000;
 }
 
-.table-paging .paging-inner .next-btn {
-    margin-left: 16px;
-    width: 30px;
-    height: 22px;
+.next-btn {
     margin-top: 2px;
 }
 
 .next-btn .page-next-btn {
-    background: url(../img/img_kabang_sprite.png);
+    display: inline-block;
+    position: relative;
+    background: url("../img/img_kabang_sprite.png");
     background-size: 420px 390px;
-    background-position: -130px -30px;
+    background-position: -170px -30px;
+    font-size: 0px;
+    text-indent: -9999px;
     width: 7px;
     height: 12px;
-    margin: 4px auto 0;
+    vertical-align: middle;
 }
 
 .search-btn {
@@ -143,18 +144,22 @@ header .main-menu li a {
 }
 
 .search-board {
-    top: -7px;
-    right: 0;
+    position: relative;
+    top: -58px;
+    right: -80px;
     width: 219px;
     height: 45px;
+    float: right;
 }
 
 .search-board .search-btn-icon {
-    background: url(../img/img_kabang_sprite.png);
+    background: url("../img/img_kabang_sprite.png");
+    float: right;
     background-size: 420px 390px;
     background-position: -130px 0;
     width: 20px;
     height: 19px;
     margin: 0 auto;
-    background-position: -130px 0;
+    font-size: 0px;
+    text-indent: -9999px;
 }
