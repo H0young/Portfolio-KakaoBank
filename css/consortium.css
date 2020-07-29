@@ -21,11 +21,11 @@ header .main-menu li a {
 .about-inner {
     width: 1080px;
     margin: 0 auto;
-    padding-top: 55px;
+    padding-top: 140px;
 }
 
 .about-title {
-    padding: 132px 0px 33px;
+    padding: 51px 0px 33px;
     font-size: 27px;
     font-style: normal;
     font-weight: normal;
@@ -36,3 +36,91 @@ header .main-menu li a {
     border-bottom: 1px solid #d0d0d0;
     margin-bottom: 60px;
 }
+
+/* SHAPE */
+
+.consortium-contents {}
+
+.img-field {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.circlebg {
+    background-image: url(../img/bg_circle.png);
+    background-size: 590px 570px;
+    background-position: 0 -240px;
+    width: 590px;
+    height: 330px;
+    margin-top: 40px;
+}
+
+.bg-content {
+    display: flex;
+    font-size: 21px;
+    line-height: 34px;
+    text-align: center;
+    color: #000;
+}
+
+.text-content1 {
+    width: 220px;
+    padding: 130px 60px 0 30px;
+}
+
+.text-content2 {
+    width: 220px;
+    padding-top: 130px;
+}
+
+.content-field {}
+
+.content-field .financial {
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 60px 0 20px 300px;
+}
+
+.content-field h4 {
+    font-size: 19px;
+    color: #000;
+    margin: 125px 200px 0 -280px;
+    font-weight: normal;
+}
+
+.financial .subtitle-financial {}
+
+.logo-wrapping {
+    width: 740px;
+    height: 315px;
+}
+
+.company-logo {
+    background-image: url("../img/logo_company_20191210.png");
+    background-size: 240px 480px;
+    width: 240px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+.company-logo .logo1 {}
+
+.company-logo.logo1 p {
+    font-size: 14px;
+    line-height: 29px;
+    color: #666;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.content-field .lifebanking {
+    125px 200px 0 -280px border-bottom: 1px solid #e6e6e6;
+    padding: 60px 0 20px 300px;
+    margin-bottom: 130px;
+}
+
+.lifebanking .subtitle-lifebanking {}
