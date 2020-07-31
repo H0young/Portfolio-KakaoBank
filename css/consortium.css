@@ -39,9 +39,6 @@ header .main-menu li a {
 
 /* SHAPE */
 
-.consortium-contents {
-}
-
 .img-field {
   width: 100%;
   display: flex;
@@ -100,9 +97,6 @@ header .main-menu li a {
   margin-right: 260px;
 }
 
-.financial .subtitle-financial {
-}
-
 .logo-wrapping {
   width: 740px;
   height: 315px;
@@ -148,15 +142,19 @@ header .main-menu li a {
 .company-logo.logo6 {
   background-position: 0 -200px;
 }
+
 .company-logo.logo7 {
   background-position: 0 -250px;
 }
+
 .company-logo.logo8 {
   background-position: 0 -300px;
 }
+
 .company-logo.logo9 {
   background-position: 0 -350px;
 }
+
 .company-logo.logo10 {
   background-position: 0 -400px;
 }

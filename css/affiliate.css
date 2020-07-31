@@ -1,0 +1,40 @@
+/* HEADER */
+
+header {
+    background-color: #313955;
+}
+
+header .logo a {
+    background: url("../img/logo_white.svg") no-repeat;
+}
+
+header .main-menu li a {
+    color: #fff;
+}
+
+.main-menu .submit-btn a {
+    color: #000;
+}
+
+/* COMMON */
+
+.about-inner {
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.about-title {
+    padding: 51px 0px 33px;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.title-bar {
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 60px;
+}
+
+/* AFFILIATE FIELD */
