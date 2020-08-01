@@ -139,4 +139,5 @@
     background: url("../img/img_brand_bi.png") no-repeat 0 -100px;
     background-size: 460px 300px;
     text-indent: -9999px;
+    font-size: 0;
 }
